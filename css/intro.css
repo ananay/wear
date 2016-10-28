@@ -1,0 +1,94 @@
+/**
+* @Author: darthfire, ananayarora
+* @Date:   2016-10-25T10:59:21+05:30
+* @Last modified by:   ananayarora
+* @Last modified time: 2016-10-25T11:27:29+05:30
+*/
+
+ * {
+ 	margin: 0;
+ 	padding:0;
+ }
+ body {
+ 	background: #010101;
+ }
+
+ #intro {
+ 	font-family: "Open Sans";
+ 	font-weight: bold;
+ 	margin-top: 30px;
+ 	text-align: center;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+     position: absolute;
+    top:40%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    opacity: 0;
+    margin-top:10px;
+ }
+ #subintro {
+ 	margin-top: 12px;
+ 	font-family: "Open Sans";
+ 	text-align: center;
+    opacity: 0;
+ 	color: #fff;
+    margin-top:10px;
+ 	font-size: 38px;
+ 	font-weight: 100;
+ 	 position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+
+ }
+
+.button {
+    width: 195px;
+    height: 65px;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: Open Sans;
+    font-weight: 300;
+    top:70%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    opacity: 0;
+
+}
+.button svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.button svg rect {
+    stroke: #ffffff;
+    stroke-width: 2;
+    stroke-dasharray: 60, 0;
+    stroke-dashoffset: 0;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+.button:hover svg rect {
+  stroke-width: 2;
+  stroke-dasharray: 110, 312;
+  stroke-dashoffset: 120;
+     transition-duration: .6s;
+  transition-timing-function: ease
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,185 @@
+// @Author: ananayarora
+// @Date:   2016-10-25T10:02:37+05:30
+// @Last modified by:   ananayarora
+// @Last modified time: 2016-10-25T13:25:04+05:30
+
+@import url(fonts.css);
+
+$font: "Proxima Nova";
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: $font;
+    background:url('../img/bg2.jpg');
+    background-size:cover;
+}
+
+.mockup {
+    width:400px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
+.face {
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    color:#fff;
+    font-size:22pt;
+    z-index:+4;
+    transform:translate(-50%,-50%);
+}
+.story {
+    font-weight: 300;
+}
+.watch_bg {
+    width:340px;
+    height:340px;
+    background: url(../img/bg.jpg);
+    background-size:cover;
+    position: absolute;
+    top:49.5%;
+    left:49.5%;
+    opacity: 0.7;
+    z-index:+2;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    border-radius:100%;
+    opacity:0;
+    overflow:hidden;
+}
+.glass {
+    position: absolute;
+    top:44%;
+    left:51.25%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    z-index: +5;
+    width:300px;
+    opacity:0;
+}
+
+.welcome_time {
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    color:#fff;
+    font-size:26pt;
+    font-weight: 400;
+    letter-spacing:2px;
+    opacity:0;
+    z-index:+6;
+}
+
+.watch {
+    opacity:0;
+}
+
+.tap {
+    font-size:14pt;
+    font-weight:700;
+    position:absolute;
+    top:60%;
+    left:50%;
+    z-index:+4;
+    color:#fff;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
+.container {
+    width: 340px;
+    height: 340px;
+    // border:4px solid #fff;
+    border-radius:100%;
+    margin-top:-35px;
+    margin-left:-15px;
+    position: relative;
+    z-index:+7;
+}
+
+.main_screen {
+    display:none;
+    opacity:0;
+    width:340px;
+    height:340px;
+    margin-top:-40px;
+    border-radius:100%;
+    margin-left:-5px;
+    overflow:hidden;
+    .profile_pic {
+        border-radius:100%;
+        width:50px;
+        opacity:0;
+        position: relative;
+        z-index: +6;
+        top: 69px;
+        left: 85px;
+        z-index: +6;
+    }
+    .card {
+        width:200px;
+        padding:15px;
+        background:#fff;
+        color:#000;
+        font-size:10pt;
+        margin-top:20px;
+        box-shadow: 0 0 100px rgba(0,0,0,0.04);
+        border-radius:2px;
+        position: relative;
+        z-index: +8;
+    }
+    .cards {
+        position:relative;
+        top:70px;
+        left:60px;
+    }
+    .name {
+        border-radius: 100%;
+        opacity: 1;
+        z-index: +6;
+        position: relative;
+        top: 50px;
+        font-size: 14pt;
+        left: 95px;
+    }
+    .fb_color {
+        background:#3b5998;
+    }
+
+    .spotify_color {
+        background:#2ebd59;
+    }
+    .spotify_buttons {
+        padding-top:10px;
+        text-align: center;
+        & i {
+            background:rgba(0,0,0,0.1);
+            padding:10px;
+            margin:5px;
+            border-radius:100%;
+        }
+    }
+    .mini {
+        color:#fff;
+        .text {
+            position: relative;
+            left:12.5px;
+        }
+    }
+}
